@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+/*头部结束*/
+
+
+/*主体部分开始*/
+
+/*主体部分左边开始*/
+.section{
+    width: 1060px;
+    height: 854px;
+    max-width: 1030px;
+    min-width: 270px;
+    padding: 0 15px;
+    margin: 40px auto 0 auto;
+}
+.section_box{
+    width: 1030px;
+}
+.subMenu {
+    width: 273.97px;
+    height: 648px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.subMenu ul {
+    padding-right: 17px;
+    border-right: 1px solid #bababa;
+}
+.subMenu ul li{
+    width:255.97px ;
+    height: 81px;
+}
+.pr {
+    position: relative;
+}
+li {
+    list-style: none;
+
+}
+
+.subMenu ul li.hover a {
+    border-bottom-color: #fa9634;
+}
+.subMenu ul li a {
+    display: block;
+    padding-left: 70px;
+    font-size: 22px;
+    line-height: 77px;
+    color: #222;
+    font-weight: 700 ;
+    border-bottom: 4px solid #fff;
+    font-family: "microsoft yahei";
+}
+
+a {
+    color: black;
+    outline: 0 none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.subMenu ul li:nth-of-type(2).hover {
+    background: url("../img/shuzi02.jpg  ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(2) {
+    background: url("../img/shuzi01.jpg    ")no-repeat   4% center ;
+}
+
+
+
+
+.subMenu ul li:first-of-type{
+    background: url("../img/hy01.jpg  ")no-repeat   4% center ;
+}
+.subMenu ul li:first-of-type:hover {
+    background: url("../img/hy02.jpg ")no-repeat  4% center;
+}
+.subMenu ul li:nth-of-type(3){
+    background: url("../img/dashuju01.jpg   ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(3):hover {
+    background: url("../img/dashuju02.jpg    ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(4){
+    background: url("../img/php01.jpg     ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(4):hover {
+    background: url("../img/php02.jpg   ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(5){
+    background: url("../img/yd01.jpg   ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(5):hover {
+    background: url("../img/yd02.jpg   ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(6){
+    background: url("../img/sg01.jpg    ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(6):hover {
+    background: url("../img/sg02.jpg  ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(7){
+    background: url("../img/sg01.jpg    ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(7):hover {
+    background: url("../img/sg02.jpg  ")no-repeat  4% center ;
+}
+.subMenu ul li:nth-of-type(8){
+    background: url("../img/ztc01.jpg    ")no-repeat   4% center ;
+
+}
+.subMenu ul li:nth-of-type(8):hover {
+    background: url("../img/ztc02.jpg  ")no-repeat  4% center ;
+}
+
+.subMenu ul li:first-of-type:hover a ,li:nth-of-type(3):hover a ,li:nth-of-type(4):hover a ,li:nth-of-type(5):hover a ,li:nth-of-type(6):hover a ,li:nth-of-type(7):hover a ,li:nth-of-type(8):hover a  {
+    display: block;
+    padding-left: 70px;
+    font-size: 22px;
+    line-height: 77px;
+    color: #222;
+    font-weight: 700 ;
+    border-bottom: 4px solid #fa9634;
+    font-family: "microsoft yahei";
+
+}
+/*主体部分左边结束*/
+
+/*主体部分右边开始*/
+.main {
+    padding-bottom: 40px;
+    width: 756.02px;
+    height: 684px;
+}
+.main {
+    width: 73.4%;
+    padding-top: 5px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.main>div {
+    padding-left: 48px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.main>div h4 {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fa9634;
+}
+.main div p {
+    text-indent: 0 !important;
+}
+
+.main>div p {
+    text-indent: 32px;
+    font-weight: 400 ;
+}
+.main>div>img {
+    padding-top: 17px;
+    padding-bottom: 32px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*主体部分右边结束*/
+/*主体部分结束*/
+
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束*/

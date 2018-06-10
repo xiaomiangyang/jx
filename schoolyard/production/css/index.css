@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+/*头部结束*/
+
+/*主体部分开始*/
+
+
+.width {
+    width: 1000px;
+    margin: 0 auto;
+}
+.pull-left {
+    float: left;
+}
+.aside {
+    margin-right: 50px;
+    width: 265px;
+    height: 240px;
+    border-right: 1px solid #bbbbbb;
+    box-sizing: border-box;
+
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+.aside li {
+    font-size: 23px;
+    line-height: 80px;
+}
+.aside li a {
+    color: #222222;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+    display: block;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 89px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aside i{
+    width: 40px;
+    height: 38px;
+    background: url("../../img/pic6.png");
+    background-size: 38px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+
+
+.aside li:first-of-type:hover{
+    border-bottom: 3px solid #fa9634;
+}
+
+
+.aside li:nth-of-type(2) i{
+    background-position: 1px -76px;
+}
+.aside li:nth-of-type(2):hover i{
+    background-position: 1px -114px;
+
+}
+
+.aside li:last-of-type i{
+    background-position: 1px 76px;
+}
+.aside li:last-of-type:hover i{
+    background-position: 1px 38px;
+}
+.aside li:last-of-type:hover{
+    border-bottom: 3px solid #fa9634;
+}
+
+.aside li:first-of-type i{
+    background-position: 1px 0;
+}
+.aside li:first-of-type:hover i{
+    background-position: 1px -38px;
+}
+.aside li:nth-of-type(2) i{
+    background-position: 1px -114px;
+}
+.aside li:nth-of-type(2) a{
+    border-bottom: 3px solid #fa9634;
+}
+.aside li:last-of-type i{
+    background-position: 1px 76px;
+}
+.aside li:last-of-type:hover i{
+    background-position: 1px 38px;
+}
+
+
+
+/*主体部分右边开始*/
+.production{
+    padding: 40px 0 105px 0 ;
+}
+.production figure{
+    margin: 0;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.production figure img{
+    display: block;
+
+}
+.production section{
+    width: 684px;
+}
+.production figure figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ec923a;
+    padding-top: 35px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 1s;
+    transform: rotate(180deg);
+}
+.production figure:hover figcaption{
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+.production figcaption p{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    line-height: 45px;
+}
+.production figcaption p:first-of-type{
+    font-size: 24px;
+}
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束/
+
+
+

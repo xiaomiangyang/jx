@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*尾部开始*/
+.footer{
+    height: 187px;
+    background: #333333;
+}
+.footer .content {
+    width: 996px;
+    margin: 0 auto ;
+    height: 97px;
+    box-sizing: border-box ;
+    position: relative ;
+
+}
+.footer .content li{
+    line-height: 30px;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.footer .content li:first-of-type {
+    text-align: right   ;
+    position: absolute ;
+    left:0;
+    top: 19px;
+    width: 154px;
+    height: 104px;
+    box-sizing: border-box ;
+}
+.footer .content li:nth-of-type(2) {
+    text-align: left ;
+    position: absolute ;
+    top: 19px;
+    width: 173px;
+    height: 104px;
+    box-sizing: border-box ;
+    left: 246px;
+}
+.footer .content li:nth-of-type(3){
+    text-align: right   ;
+    position: absolute ;
+    right: 355px;
+    top: 19px;
+    width: 139px;
+    height: 104px;
+    box-sizing: border-box ;
+
+}
+.footer .content li:last-of-type {
+    text-align: left ;
+    position: absolute ;
+    right: 0;
+    top: 19px;
+    width: 256px;
+    height: 104px;
+    box-sizing: border-box ;
+}
+
+/*尾部结束*/

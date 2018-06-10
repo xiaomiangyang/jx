@@ -1,0 +1,496 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: block ;
+}
+/*头部结束*/
+
+/*banner开始*/
+
+.slide-caption li{
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background: #999;
+    margin-right:10px;
+}
+.slide-caption li:hover{
+    background:#fa9634;
+}
+.slide-caption{
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: 10000;
+}
+.dowebok {
+    width: 100%;
+    overflow: hidden;
+}
+.slides img {
+    width: 100%;
+    vertical-align: top;
+}
+.slide-caption .flex-active {
+    background-color: #fa9634;
+}
+/*banner 结束*/
+
+
+/*主体部分开始*/
+.content{
+    width: 1001px;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+.content h2{
+    font-size: 29px;
+    padding-top: 38px;
+    height: 78px;
+    line-height: 78px;
+}
+/*主体内容一（招生指南)开始*/
+.guide  ul{
+    margin-top: 32px;
+}
+.guide  ul li{
+    width: 250px;
+    height: 75px;
+    float: left;
+    padding-left:103px;
+    background: url(../img/images/guide.png )no-repeat ;
+    box-sizing: border-box;
+}
+.guide  ul  li:hover{
+    border-bottom: 5px solid #fa9634;
+}
+.guide  ul   li:first-of-type{
+    background-position: 30px -65px;
+}
+.guide  ul   li:first-of-type .apply{
+    background-position: 30px 5px;
+    border-bottom: 5px solid #fa9634;
+}
+.guide  ul  li:first-of-type:hover{
+    background-position: 30px 5px;
+    border-bottom: 5px solid #fa9634;
+}
+.guide  ul  li:nth-of-type(2){
+    background-position: 30px -150px;
+}
+.guide  ul  li:nth-of-type(2):hover{
+    background-position: 30px -230px;
+}
+.guide  ul  li:nth-of-type(3){
+    background-position: 30px -308px;
+}
+.guide  ul li:nth-of-type(3):hover{
+    background-position: 30px -388px;
+}
+.guide  ul  li:last-of-type{
+    position: absolute ;
+    left:900px;
+    background-position:30px -464px;
+
+}
+.guide  ul  li:last-of-type:hover{
+    background-position:30px -548px;
+}
+
+
+.guide ul li a{
+    position: relative;
+    display: block;
+    height: 73px;
+    top:-40px
+}
+
+.guide ul li  a:hover{
+    border-bottom-color:#fa9634 ;
+}
+.guide ul li  h3{
+    padding-top: 36px;
+    height: 35px;
+    font-size: 19px;
+    color: #222222;
+}
+.guide ul li  p{
+    line-height: 26px;
+    font-size: 12px;
+    color: #888;
+}
+/*主体内容一（招生指南)结束*/
+
+/*主体内容二(课程设置)开始*/
+.course h2 {
+    padding-top: 38px;
+    padding-bottom: 42px;
+    font-size: 29px;
+    line-height: 78px;
+}
+.course li{
+    width: 332px;
+    height: 176px;
+    text-align: center;
+    float: left ;
+    position: relative;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    -webkit-box-sizing: border-box;
+    padding-top: 17px;
+    cursor: pointer;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.course ul{
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+ .course li a span {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+     background: #90c166 url("../img/images/course.png") no-repeat 17px 22px;
+}
+.course .title{
+    font-size: 22px;
+    line-height: 50px;
+    color: #000;
+    font-weight:400;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.course li span:hover  {
+    background: #fa9634;
+}
+.course .clearfix li:nth-of-type(2)  a span {
+    background: url("../img/images/ke02_03.png ") no-repeat ;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(3)  a span  {
+    background: url("../img/images/ke03_03.png  ") no-repeat ;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(4)  a span{
+    background:  url("../img/images/ke04_03.png ") no-repeat;
+    top: 10px;
+
+}
+.course .clearfix li:nth-of-type(5)  a span{
+    background:  url("../img/images/ke05_03.png  ") no-repeat;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(6)  a span{
+    background:  url("../img/images/ke06_03.png   ") no-repeat;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(7)  a span{
+    background:  url("../img/images/ke07_03.png   ") no-repeat;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(8)  a span{
+    background:  url("../img/images/ke08_03.png   ") no-repeat;
+    top: 10px;
+}
+.course .clearfix li:nth-of-type(9)  a span{
+    background:  url("../img/images/ke09_03.png    ") no-repeat;
+    top: 10px;
+}
+
+.course ul li h3{
+    font-size: 24px;
+    line-height: 50px;
+    padding: 10px;
+
+}
+.course ul li  p{
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden ;
+
+}
+
+.course ul li div{
+    position: absolute ;
+    width: 332px;
+    height:176px;
+    background: #90c166;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+}
+
+.course ul li:nth-of-type(2n) div{
+    background: #fa9634;
+}
+
+.course ul li:hover div{
+    opacity: 1;
+}
+/*主体内容二(课程设置)结束*/
+
+/*主体内容三(校园风采)开始*/
+.title1 h2{
+    font-size: 28px;
+    line-height: 105px;
+    height: 105px;
+    color: #000;
+    float: left ;
+}
+.title1 a{
+    padding-top: 25px;
+    font-size: 18px;
+    color: #fa9634;
+    float: right ;
+    line-height: 105px;
+    height: 105px;
+}
+
+.school h3{
+    font-size: 14px;
+    padding-top: 8px;
+    color: #333333;
+}
+.school p {
+    width: 300px;
+    font-size: 12px;
+    padding-top: 8px;
+    color: #888888;
+}
+.school img{
+    width: 300px;
+    height: 180px;
+}
+.school li:first-of-type {
+    float: left ;
+    margin-right:48px;
+
+}
+.school li:nth-of-type(2) {
+    float: left ;
+    margin-right:48px;
+}
+
+.school li:last-of-type{
+    float: left ;
+    margin-right:0;
+
+}
+/*主体内容三(校园风采)结束*/
+
+/*主体内容四(明星学子)开始*/
+.star   p{
+    line-height: 40px;
+    margin-top: 6px;
+    font-weight: bold;
+    text-align: center ;
+    font-size: 18px;
+    overflow: hidden ;
+    white-space: nowrap ;
+}
+.star img{
+    width: 243px;
+    height:200px;
+}
+
+.star figure {
+    margin-right: 8px;
+    margin-top: 8px;
+    position: relative;
+}
+.star figure:nth-of-type(4n)  {
+    margin-right: 0;
+}
+.star figure:nth-of-type(6)  {
+    margin-left: 8px;
+}
+.star figure:nth-of-type(11)  {
+    margin-left: 8px;
+}
+.star  figcaption{
+    width: 100%;
+    height:100%;
+    background: #90c166;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding:20px;
+    box-sizing: border-box;
+    cursor: pointer ;
+    display: none;
+
+}
+.star  figure:hover figcaption{
+    display: block;
+}
+
+/*主体内容四(明星学子)结束*/
+
+/*主体内容五(学员作品)开始*/
+.students  h4{
+    margin-top: 23px;
+    font-size: 22px;
+    line-height: 44px;
+    font-weight: bold;
+    text-align: center ;
+    overflow: hidden ;
+    white-space: nowrap ;
+}
+.students   p{
+    line-height: 44px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center ;
+    font-size: 18px;
+    overflow: hidden ;
+    white-space: nowrap ;
+}
+.students img{
+    width: 200px;
+    height:200px;
+}
+.star figure:nth-of-type(5n)  {
+    margin-right: 0;
+}
+.students figure {
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.students  figcaption{
+    width: 100%;
+    height:100%;
+    background: #f79d45;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding:20px;
+    box-sizing: border-box;
+    cursor: pointer ;
+    display: none;
+    text-align: center ;
+}
+.students  figure:hover figcaption{
+    display: block;
+}
+/*主体内容五(学员作品)结束*/
+
+/*主体内容六(就业单位)开始*/
+.company{
+    border-spacing: 10px;
+    border-collapse: inherit;
+}
+.company table td{
+    position: relative;
+    width: 158px;
+    height: 58px;
+    border: 1px solid #d5d5d5;
+    background: url("../img/images/company.png ") no-repeat;
+
+}
+.company td:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #dddddd;
+    border-right-color: #dddddd;
+
+}
+.company tr:first-of-type td:first-of-type{
+    background-position: 29px 17px;
+}
+.company tr:first-of-type td:nth-of-type(2){
+    background-position: -113px 17px;
+}
+.company tr:first-of-type td:nth-of-type(3){
+    background-position: 30px -40px;
+}
+.company tr:first-of-type td:nth-of-type(4){
+    background-position: -113px -40px;
+}
+.company tr:first-of-type td:nth-of-type(5){
+    background-position: 30px -106px;
+}
+.company tr:first-of-type td:last-of-type{
+    background-position: -113px -106px;
+}
+.company tr:nth-of-type(2) td:first-of-type{
+    background-position: 29px -161px;
+}
+.company tr:nth-of-type(2) td:nth-of-type(2){
+    background-position: -129px -161px;
+}
+.company tr:nth-of-type(2) td:nth-of-type(3){
+    background-position: 38px -221px;
+}
+.company tr:nth-of-type(2) td:nth-of-type(4){
+    background-position: -133px -216px;
+}
+.company tr:nth-of-type(2) td:nth-of-type(5){
+    background-position: 40px -290px;
+}
+.company tr:nth-of-type(2) td:last-of-type{
+    background-position: -113px -286px;
+}
+.company tr:last-of-type td:first-of-type{
+    background-position: 29px -357px;
+}
+.company tr:last-of-type td:nth-of-type(2){
+    background-position: -113px -357px;
+}
+.company tr:last-of-type td:nth-of-type(3){
+    background-position: 38px -412px;
+}
+.company tr:last-of-type td:nth-of-type(4){
+    background-position: -110px -415px;
+}
+.company tr:last-of-type td:nth-of-type(5){
+    background-position: 33px -474px;
+}
+.company tr:last-of-type td:last-of-type{
+    background-position: -104px -474px;
+}
+.company table{
+    margin-bottom: 95px;
+}
+
+/*主体内容六(就业单位)结束*/
+/*主体部分结束*/
+
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束*/

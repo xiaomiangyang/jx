@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+/*头部结束*/
+
+/*主体部分开始*/
+
+.width {
+    width: 1000px;
+    margin: 0 auto;
+}
+.pull-left {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    list-style: none;
+}
+.aside {
+    margin-right: 50px;
+    width: 265px;
+    height: 240px;
+    border-right: 1px solid #bbbbbb;
+    box-sizing: border-box;
+
+}
+.aside li {
+    font-size: 23px;
+    line-height: 80px;
+}
+.aside i{
+    width: 40px;
+    height: 38px;
+    background: url("../../img/pic6.png");
+    background-size: 38px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+.aside li:first-of-type i {
+    background-position: 1px -38px;
+}
+
+.aside li a {
+    color: #222222;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+    display: block;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 89px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.aside li:first-of-type :hover{
+    border-bottom: 3px solid #fa9634;
+}
+
+
+.aside li:nth-of-type(2) i{
+    background-position: 1px -76px;
+}
+.aside li:nth-of-type(2):hover i{
+    background-position: 1px -114px;
+
+}
+.aside li:nth-of-type(2):hover{
+    border-bottom: 3px solid #fa9634;
+}
+
+.aside li:last-of-type i{
+    background-position: 1px 76px;
+}
+.aside li:last-of-type:hover i{
+    background-position: 1px 38px;
+}
+
+
+
+.aside i{
+    width: 40px;
+    height: 38px;
+    background: url("../../img/pic6.png");
+    background-size: 38px;
+}
+.aside li:first-of-type i{
+   background-position: 1px 0;
+}
+.aside li:first-of-type:hover i{
+    background-position: 1px -38px;
+}
+.aside li:nth-of-type(2) i{
+    background-position: 1px -76px;
+}
+.aside li:nth-of-type(2):hover i{
+    background-position: 1px -114px;
+}
+.aside li:last-of-type i{
+    background-position: 1px 38px;
+}
+.aside li:last-of-type a{
+    border-bottom: 3px solid #fa9634;
+}
+
+/*右边开始*/
+.life{
+    padding: 40px 0 128px 0;
+}
+.main {
+    position: relative;
+    width: 684px;
+    height: 490px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides img {
+    display: block;
+    width: 684px;
+    height: 400px;
+}
+.slide-caption {
+    width: 684px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    font-size: 0;
+    z-index: 10;
+}
+.slide-caption li{
+    float: left;
+}
+.slide-caption li a{
+    display: block;
+    width: 114px;
+    height: 90px;
+    box-sizing: border-box;
+    background: url("../../img/r.png ")repeat  ;
+    border: 1px solid #1b1c1e;
+    position: relative;
+}
+.slide-caption li a:after{
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 16px solid transparent;
+    border-bottom-color:#1b61b9;
+    opacity: 0;
+}
+.slide-caption li a:before{
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    top: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 15px solid transparent;
+    border-bottom-color:#000;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+.slide-caption li a:hover:before,
+.slide-caption li a:hover:after{
+    opacity:1;
+    display: block;
+}
+.slide-caption a img{
+    display: block;
+    width: 94px;
+    height: 70px;
+    margin: 10px;
+}
+.slide-caption a {
+    font: 14px/50px "Microsoft Yahei";
+    color: #c8c8c8;
+    text-align: center;
+    text-decoration: none;
+}
+.slide-caption .flex-active a {
+    color: #e9c06c;
+    background-color: #303030;
+}
+.life article{
+    width: 684px;
+    margin-top: 30px;
+}
+.life p{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #212121;
+    line-height: 36px;
+}
+.slide-caption .flex-active a {
+    background: #000;
+    border: 1px solid #1b61b9;
+}
+.slide-caption .flex-active a:before{
+    opacity: 1;
+}
+.slide-caption .flex-active a:after{
+    opacity: 1;
+}
+
+
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束/

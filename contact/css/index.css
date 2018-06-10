@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width:100%;
+    height: 80px;
+}
+/*头部结束*/
+
+/*主体部分开始*/
+.contact{
+    padding: 40px 0 53px 0;
+}
+.contact h2{
+    font-size: 18px;
+    color: #fa9634;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+.contact h2,.contact p{
+    display:block;
+    text-align: center;
+}
+.contact h2:nth-of-type(n+2){
+    margin-top: 49px;
+}
+.contact h2:nth-of-type(n+3){
+    margin-top: 52px;
+}
+.contact h2:last-of-type{
+    margin-bottom: 8px;
+}
+.fonts23{
+    font-size: 23px;
+    font-weight: bold;
+}
+.fonts18{
+    font-size: 18px;
+}
+.contact p:nth-of-type(n+4){
+    margin: 0 auto;
+    width: 725px;
+    font-size: 15px;
+    line-height: 36px;
+}
+.contact p span{
+    font-weight: bold;
+    margin-right: 6px;
+}
+.contact img{
+    display: block;
+    margin: 29px auto;
+}
+/*主体部分结束*/
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束*/

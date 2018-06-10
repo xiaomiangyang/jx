@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*头部开始*/
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+/*头部结束*/
+
+/*主体部分开始*/
+
+/*主体部分左边开始*/
+.pull-left {
+    float: left;
+}
+.aside {
+    margin-right: 50px;
+    width: 265px;
+    height: 320px;
+    box-sizing: border-box;
+    border-right: 1px solid #bbbbbb;
+    display: block;
+
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+aside li {
+    font-size: 23px;
+    line-height: 80px;
+}
+.aside i {
+    background: url(../../img/baoming.png);
+    background-size: 40px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+.aside li a {
+    color: #222222;
+    box-sizing: border-box;
+    display: block;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    padding-left:89px;
+}
+a {
+    text-decoration: none;
+}
+
+
+.aside li:first-of-type i{
+    background-position: 0 0;
+}
+.aside li:first-of-type:hover i{
+    background-position: 0 -58px;
+}
+.aside li:nth-of-type(2) a{
+    border-bottom: 3px solid #fa9634;
+}
+.aside li:nth-of-type(2) i{
+    background-position: 0 222px
+}
+.aside li:nth-of-type(3) i{
+    background-position: 4px -113px;
+}
+.aside li:nth-of-type(3):hover i{
+    background-position: 4px -171px;
+}
+.aside li:last-of-type i{
+    background-position: 3px 161px;
+}
+.aside li:last-of-type:hover i{
+    background-position: 3px 103px;
+}
+/*主体部分左边结束*/
+
+/*主体部分右边开始*/
+
+.education{
+    padding: 40px 0 176px 0;
+    color: #222222;
+}
+.education h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 31px 0 4px 0;
+}
+.education h3{
+    font-size: 18px;
+    color: #fa9634;
+    margin-top: 20px;
+}
+.education p{
+    font-size: 17px;
+    margin-top: 17px;
+}
+/*主体部分右边结束*/
+/*主体部分结束*/
+
+
+/*尾部开始*/
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+}
+/*尾部结束/
+
+
+
+
+
+
+
+
+
+
+
